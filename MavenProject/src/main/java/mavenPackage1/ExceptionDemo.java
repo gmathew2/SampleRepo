@@ -11,6 +11,7 @@ public class ExceptionDemo {
 		catch(ArithmeticException e)
 		{
 			System.out.println("Division by Zero is not possible");
+			System.out.println("Division by Zero is not possible");
 		}
 	
 	}
