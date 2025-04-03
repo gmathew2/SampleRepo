@@ -2,7 +2,7 @@ package mavenPackage1;
 
 public class ArrayException {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) //comment
 	{
 		int ar[]= {1,2,3};
 		
@@ -13,6 +13,7 @@ public class ArrayException {
 		}
 		catch(ArrayIndexOutOfBoundsException a)
 		{
+			System.out.println("Array index out of bound "+a);
 			System.out.println("Array index out of bound "+a);
 		}
 		catch(Exception e)
